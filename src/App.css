@@ -1,6 +1,38 @@
 .App {
   text-align: center;
 }
+.logo{
+width:200px;
+
+}
+.nav-link
+{
+  letter-spacing: normal;
+  cursor: pointer;
+
+}
+nav ul li
+{
+  text-shadow: teal;
+  text-overflow: initial;
+  text-transform: uppercase;
+}
+.navbar-nav > li > a{
+ 
+  color: antiquewhite    !important;
+  margin-right: 12px;
+  margin-left: 12px;
+}
+.navbar-brand
+{
+  padding: 0 !important;
+  height: 6.5rem  !important;
+  max-width: 17rem;
+}
+.navbar-nav > li > a.active , .navbar-nav > li > a:hover
+{
+  border-top: 0.075rem solid orange;
+}
 
 .App-logo {
   height: 40vmin;
